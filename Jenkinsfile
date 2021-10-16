@@ -4,7 +4,7 @@ pipeline
   stages
   { 
     stage('scm checkout')
-    { steps { git 'https://github.com/prakashk0301/tomcat-installation-using-ansible' }}
+    { steps { git 'https://github.com/fardeenahmed098/tomcat-installation-using-ansible' }}
 
     stage('copy playbook from jenkins workspace area to ansible master playbooks directory')
     { steps 
